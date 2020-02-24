@@ -163,7 +163,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <small>Pendaftaran akan dibuka 2 minggu sebelum pelaksanaan acara.</small>
                     <div class="btn-wrapper">
                         <div class="text-center">
-                            <a href="#" class="btn btn-primary wow slideInLeft">Download  <b class="fa fa-download"></b></a> &nbsp;&nbsp;&nbsp;<a href="registrasi.php" class="btn btn-default wow slideInRight">Registrasi</a>
+                            <a href="<?php echo base_url('download') ?>" class="btn btn-primary wow slideInLeft">Download  <b class="fa fa-download"></b></a> &nbsp;&nbsp;&nbsp;<a href="registrasi.php" class="btn btn-default wow slideInRight">Registrasi</a>
                         </div>
                     </div><!-- end row -->
                 </div>
