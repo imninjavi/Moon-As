@@ -83,13 +83,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <span class="icon-bar"></span>
                         </button>
                         <div class="logo-normal">
-                            <a class="navbar-brand" href="index.php"><img src="<?php echo base_url('assets/images/logo3.png')?>" alt=""></a>
+                            <a class="navbar-brand" href="#"><img src="<?php echo base_url('assets/images/logo3.png')?>" alt=""></a>
                         </div>
                     </div>
 
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.php">Beranda</a></li>
+                            <li><a href="<?php echo base_url() ?>">Beranda</a></li>
                             <li><a href="<?php echo base_url('registrasi') ?>">Registrasi</a></li>
                             <li><a href="page-contact.html">Contact</a></li>
                         </ul>
@@ -163,7 +163,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <small>Pendaftaran akan dibuka 2 minggu sebelum pelaksanaan acara.</small>
                     <div class="btn-wrapper">
                         <div class="text-center">
-                            <a href="<?php echo base_url('download') ?>" class="btn btn-primary wow slideInLeft">Download  <b class="fa fa-download"></b></a> &nbsp;&nbsp;&nbsp;<a href="registrasi.php" class="btn btn-default wow slideInRight">Registrasi</a>
+                            <a href="<?php echo base_url('download') ?>" class="btn btn-primary wow slideInLeft">Download  <b class="fa fa-download"></b></a> &nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('registrasi') ?>" class="btn btn-default wow slideInRight">Registrasi</a>
                         </div>
                     </div><!-- end row -->
                 </div>
