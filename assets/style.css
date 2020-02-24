@@ -1900,7 +1900,7 @@ FOOTER
 .copyrights {
     background-color: #000;
     border-top: 1px solid #181818;
-    padding: 30px 0;
+    padding: 5px 0;
 }
 
 .copyrights li a {
@@ -2327,6 +2327,7 @@ RESPONSIVE
     border-radius: 50%;
     height: 0px;
     padding-bottom: 100%;
+    
     }
     .text {
     color: #fff;
@@ -2347,7 +2348,7 @@ RESPONSIVE
     }
      @media (min-width: 768px) and (max-width: 991px) {
     .clock-item {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     }
     }
      @media (max-width: 767px) {
