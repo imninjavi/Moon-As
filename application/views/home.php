@@ -159,7 +159,64 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="home-text-wrapper relative container">
                 <div class="home-message">
                     <p>MUSYAWARAH NASIONAL FMKI 2020</p>
-                    <small>Edulogy is the ideal choice for your organization, your business and your online education system. Create your online course now with unlimited page templates, color options, and menu features.</small>
+                    
+                    <div class="countdown countdown-container container ">
+                        <div class="clock row">
+                            <div class="clock-item clock-days countdown-time-value col-sm-2 col-md-2">
+                                <div class="wrap">
+                                    <div class="inner">
+                                        <div id="canvas-days" class="clock-canvas"></div>
+
+                                        <div class="text">
+                                            <p class="val">0</p>
+                                            <p class="type-days type-time">DAYS</p>
+                                        </div><!-- /.text -->
+                                    </div><!-- /.inner -->
+                                </div><!-- /.wrap -->
+                            </div><!-- /.clock-item -->
+
+                            <div class="clock-item clock-hours countdown-time-value col-sm-2 col-md-2">
+                                <div class="wrap">
+                                    <div class="inner">
+                                        <div id="canvas-hours" class="clock-canvas"></div>
+
+                                        <div class="text">
+                                            <p class="val">0</p>
+                                            <p class="type-hours type-time">HOURS</p>
+                                        </div><!-- /.text -->
+                                    </div><!-- /.inner -->
+                                </div><!-- /.wrap -->
+                            </div><!-- /.clock-item -->
+
+                            <div class="clock-item clock-minutes countdown-time-value col-sm-2 col-md-2">
+                                <div class="wrap">
+                                    <div class="inner">
+                                        <div id="canvas-minutes" class="clock-canvas"></div>
+
+                                        <div class="text">
+                                            <p class="val">0</p>
+                                            <p class="type-minutes type-time">MINUTES</p>
+                                        </div><!-- /.text -->
+                                    </div><!-- /.inner -->
+                                </div><!-- /.wrap -->
+                            </div><!-- /.clock-item -->
+
+                            <div class="clock-item clock-seconds countdown-time-value col-sm-2 col-md-2">
+                                <div class="wrap">
+                                    <div class="inner">
+                                        <div id="canvas-seconds" class="clock-canvas"></div>
+
+                                        <div class="text">
+                                            <p class="val">0</p>
+                                            <p class="type-seconds type-time">SECONDS</p>
+                                        </div><!-- /.text -->
+                                    </div><!-- /.inner -->
+                                </div><!-- /.wrap -->
+                            </div><!-- /.clock-item -->
+                        </div><!-- /.clock -->
+                    </div><!-- /.countdown-wrapper -->
+
+                    <small>Pendaftaran akan dibuka 2 minggu sebelum pelaksanaan acara.</small>
                     <div class="btn-wrapper">
                         <div class="text-center">
                             <a href="#" class="btn btn-primary wow slideInLeft">Read More</a> &nbsp;&nbsp;&nbsp;<a href="#" class="btn btn-default wow slideInRight">Buy Now</a>
@@ -182,40 +239,38 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div><!-- end col -->
                     <div class="col-md-8">
                         <div class="custom-module p40l">
-                            <h2>We are a passionate <mark>learning system</mark> from<br>
-                            London. Do beautiful and easy-to-use digital <br>
-                            design & web development</h2>
+                            <h2>Musyawarah Nasional FMKI 2020 akan diselenggarakan di Kampus Bumi Sanapati Politeknik Siber dan Sandi Negara</h2>
 
-                            <p>Nam dictum sem, ipsum aliquam . Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero.</p>
+                            <p>Musyawarah nasional yang diselenggarakan oleh Forum Mahasiswa Kedinasan Indonesia berlokasi di Bogor tepatnya di Kampus Bumi Sanapati, Politeknik Siber dan Sandi Negara. Acara ini akan diikuti oleh beberapa Perguruan Tinggi Kedinasan yaitu: </p>
 
                             <hr class="invis">
 
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 first">
                                     <ul class="check">
-                                        <li>Custom Shortcodes</li>
-                                        <li>Visual Page Builder</li>
-                                        <li>Unlimited Shortcodes</li>
-                                        <li>Responsive Theme</li>
-                                        <li>Tons of Layouts</li>
+                                        <li>STSN</li>
+                                        <li>STPI</li>
+                                        <li>PKN STAN</li>
+                                        <li>API Madiun</li>
+                                        <li>STTD</li>
                                     </ul><!-- end check -->
                                 </div><!-- end col-lg-4 -->
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                     <ul class="check">
-                                        <li>Font Awesome Icons</li>
-                                        <li>Pre-Defined Colors</li>
-                                        <li>AJAX Transitions</li>
-                                        <li>High Quality Support</li>
-                                        <li>Unlimited Options</li>
+                                        <li>Polbangtan</li>
+                                        <li>STMKG</li>
+                                        <li>STIS</li>
+                                        <li>AKA Migas</li>
+                                        <li>PPI Curug</li>
                                     </ul><!-- end check -->    
                                 </div><!-- end col-lg-4 -->
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 last">
                                     <ul class="check">
-                                        <li>Shopping Layouts</li>
-                                        <li>Pre-Defined Fonts</li>
-                                        <li>Style Changers</li>
-                                        <li>Footer Styles</li>
-                                        <li>Header Styles</li>
+                                        <li>Poltekim</li>
+                                        <li>Poltekip</li>
+                                        <li>Bebas1</li>
+                                        <li>Bebas 2</li>
+                                        <li>haha hihi</li>
                                     </ul><!-- end check -->
                                 </div><!-- end col-lg-4 --> 
                             </div><!-- end row -->   
@@ -329,6 +384,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="<?php echo base_url('assets/js/custom.js')?>"></script>
     <!-- VIDEO BG PLUGINS -->
     <script src="<?php echo base_url('assets/js/videobg.js')?>"></script>
+    <!-- Countdown Timer -->
+    <script type="text/javascript" src="<?php echo base_url('assets/js/kinetic.js')?>"></script>
+    <script type="text/javascript" src="<?php echo base_url('assets/js/jquery.final-countdown.js')?>"></script>
+    
+    <script type="text/javascript">  
+    $('document').ready(function() {
+        'use strict';
 
+        var start = Date.parse('Wed Feb 20 19:20:44 +0000 2020')/1000;
+        var end = Date.parse('Wed Mar 28 19:20:44 +0000 2020')/1000;
+        var now = new Date().getTime() / 1000;
+        
+    	$('.countdown').final_countdown({
+            'start': start,
+            'end': end,
+            'now': now        
+        });
+    });
+    </script>
+    
 </body>
 </html>
