@@ -21,8 +21,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="author" content="">
     
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="<?php echo base_url('assets/images/favicon.ico')?>" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="<?php echo base_url('assets/images/apple-touch-icon.png')?>">
+    <link rel="shortcut icon" href="<?php echo base_url('assets/images/logo3.png')?>" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="<?php echo base_url('assets/images/logo2.png')?>">
 
 	<!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet"> 
@@ -232,86 +232,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </section>
 
 
-        <footer class="section footer noover">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="widget clearfix">
-                            <h3 class="widget-title">Subscribe Our Newsletter</h3>
-                            <div class="newsletter-widget">
-                                <p>You can opt out of our newsletters at any time.<br> See our <a href="#">privacy policy</a>.</p>
-                                <form class="form-inline" role="search">
-                                    <div class="form-1">
-                                        <input type="text" class="form-control" placeholder="Enter email here..">
-                                        <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane-o"></i></button>
-                                    </div>
-                                </form>
-                                <img src="<?php echo base_url('assets/images/payments.png')?>" alt="" class="img-responsive">
-                            </div><!-- end newsletter -->
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-
-                    <div class="col-lg-3 col-md-3">
-                        <div class="widget clearfix">
-                            <h3 class="widget-title">Join us today</h3>
-                            <p>Would you like to earn your profits by joining our team? Join us without losing time.</p>
-                            <a href="#" class="readmore">Became a Teacher</a>
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-
-                    <div class="col-lg-3 col-md-3">
-                        <div class="widget clearfix">
-                            <h3 class="widget-title">Popular Tags</h3>
-                            <div class="tags-widget">   
-                                <ul class="list-inline">
-                                    <li><a href="#">course</a></li>
-                                    <li><a href="#">web design</a></li>
-                                    <li><a href="#">development</a></li>
-                                    <li><a href="#">language</a></li>
-                                    <li><a href="#">teacher</a></li>
-                                    <li><a href="#">speaking</a></li>
-                                    <li><a href="#">material</a></li>
-                                    <li><a href="#">css3</a></li>
-                                    <li><a href="#">html</a></li>
-                                    <li><a href="#">learning</a></li>
-                                </ul>
-                            </div><!-- end list-widget -->
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-
-                    <div class="col-lg-2 col-md-2">
-                        <div class="widget clearfix">
-                            <h3 class="widget-title">Support</h3>
-                            <div class="list-widget">   
-                                <ul>
-                                    <li><a href="#">Terms of Use</a></li>
-                                    <li><a href="#">Copyrights</a></li>
-                                    <li><a href="#">Create a Ticket</a></li>
-                                    <li><a href="#">Pricing & Plans</a></li>
-                                    <li><a href="#">Carrier</a></li>
-                                    <li><a href="#">Trademark</a></li>
-                                </ul>
-                            </div><!-- end list-widget -->
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-                </div><!-- end row -->
-            </div><!-- end container -->
-        </footer><!-- end footer -->
+        
 
         <div class="copyrights">
             <div class="container">
                 <div class="clearfix">
-                    <div class="pull-left">
+                    <div class="text-center">
                         <div class="cop-logo">
-                            <a href="#"><img src="<?php echo base_url('assets/images/logo2.png')?>" alt=""></a>
-                        </div>
-                    </div>
-
-                    <div class="pull-right">
-                        <div class="footer-links">
                             <ul class="list-inline">
-                                <li>Design : <a href="https://html.design">HTML.Design</a></li>
-                                <li>Distributed by : <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></li>
+                                <li>Forum Mahasiswa Kedinasan Indonesia</li>
+                                <a href="#"><img src="<?php echo base_url('assets/images/logo2.png')?>" alt=""></a>
+                                <li>Politeknik Siber dan Sandi Negara</li>
                             </ul>
                         </div>
                     </div>
