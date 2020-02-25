@@ -98,94 +98,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div><!-- end container -->
         </header>
 
-        <section class="section db p120" style="background-color: #555555">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="tagline-message page-title text-center">
-                            <h3>Registrasi Pengurus</h3>
-                        </div>
-                    </div><!-- end col -->
-                </div><!-- end row -->
-            </div><!-- end container -->
-        </section><!-- end section -->
-
-        <section class="section gb nopadtop">
-            <div class="container">
-                <div class="boxed boxedp4">
-
-                    <div class="row">
-                        <div class="col-md-6 col-md-offset-3">
-                            <div class="section-title text-center">
-                                <h3>Formulir Registrasi</h3>
-                                <p>Harap mengisi formulir berikut dengan sebenar-benarnya.</p>
-                            </div><!-- end title -->
-
-                            <?php echo validation_errors(); ?>
-                            
-                            <form action="<?php echo base_url('registrasi/regis_pengurus') ?>" class="big-contact-form" method="post">
-                                <input type="text" name="nama" class="form-control" placeholder="Nama lengkap">
-                                <label class="radio-inline"><input type="radio" name="jenis_kelamin">Laki-laki</label>
-                                <label class="radio-inline"><input type="radio" name="jenis_kelamin">Perempuan</label>
-                                <input type="number" name="nik" class="form-control" placeholder="NIK">
-                                <select name="ptk" class="form-control">
-                                    <option disabled selected>Asal PTK</option>
-                                    <option>AAL</option>
-                                    <option>AKMIL</option>
-                                    <option>AAU</option>
-                                    <option>AKPOL</option>
-                                    <option>ATKP</option>
-                                    <option>IPDN</option>
-                                    <option>POLTEKIP</option>
-                                    <option>POLTEKIM</option>
-                                    <option>POLBANGTAN</option>
-                                    <option>POLTEK AKA</option>
-                                    <option>POLTEK ATK</option>
-                                    <option>POLTEKPEL</option>
-                                    <option>STIP</option>
-                                    <option>PIP</option>
-                                    <option>PPI</option>
-                                    <option>STTD</option>
-                                    <option>PKTJ</option>
-                                    <option>POLTEKBANG</option>
-                                    <option>POLTRANS SDP</option>
-                                    <option>POLTEK KP</option>
-                                    <option>STP</option>
-                                    <option>PEM Akamigas</option>
-                                    <option>AKMET</option>
-                                    <option>POLTEKSOS</option>
-                                    <option>POLTEK APP</option>
-                                    <option>STPN</option>
-                                    <option>POLTEK STMI</option>
-                                    <option>POLTEK STAT STIS</option>
-                                    <option>POLTEK STTT</option>
-                                    <option>STSN</option>
-                                    <option>PKN STAN</option>
-                                    <option>STTN BATAN</option>
-                                    <option>STMKG</option>
-                                    <option>POLTEKKES</option>
-                                </select>
-                                <input type="text" name="nim" class="form-control" placeholder="NIM/NPM/NRP/NIT">
-                                <input type="text" name="jabatan" class="form-control" placeholder="Jabatan di FMKI">
-                                <input type="number" name="telp" class="form-control" placeholder="Nomor telepon">
-                                <select name="agama" class="form-control">
-                                    <option disabled selected>Agama</option>
-                                    <option>Islam</option>
-                                    <option>Katolik</option>
-                                    <option>Kristen</option>
-                                    <option>Hindu</option>
-                                    <option>Budha</option>
-                                </select>
-                                Upload foto dan dokumen (dalam bentuk *.zip atau *.rar)
-                                <input type="file" name="dokumen">
-                                <br>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </form>
-                        </div><!-- end col -->
-                    </div><!-- end row -->
-                </div><!-- end container -->
+        <div class="container text-center" style="margin-top: 30px; margin-bottom: 10px">
+            <div class="row text-center">
+                <div class="col-sm-6 col-sm-offset-3">
+                <br><br> <h2 style="color:#0fad00">Pendaftaran Anda telah berhasil!</h2>
+                <img src="<?php echo base_url('assets/upload/check-success.png')?>">
+                <h3><?php echo $nama ?>,</h3>
+                <p style="font-size:20px;color:#5C5C5C;">Terima kasih telah melakukan pendaftaran. <br>Anda dapat kembali ke Beranda atau dapat kembali ke halaman registrasi melalui tombol di bawah ini.</p>
+                <a href="<?php echo base_url() ?>" class="btn btn-primary wow slideInLeft">Beranda  <b class="fa fa-download"></b></a> &nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('registrasi') ?>" class="btn btn-default wow slideInRight">Registrasi</a>
+            <br><br>
+                </div>
+                
             </div>
-        </section>
+        </div>
 
         <div class="copyrights">
             <div class="container">
