@@ -6,5 +6,15 @@ class Registrasi extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('registrasi');
+    }
+    
+    public function delegasi()
+	{
+		$this->load->view('reg_peserta');
+    }
+    
+    public function pengurus()
+	{
+		$this->load->view('reg_pengurus');
 	}
 }

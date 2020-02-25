@@ -103,7 +103,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="row">
                     <div class="col-md-12">
                         <div class="tagline-message page-title text-center">
-                            <h3>Registrasi Peserta</h3>
+                            <h3>Registrasi Pengurus</h3>
                         </div>
                     </div><!-- end col -->
                 </div><!-- end row -->
@@ -122,119 +122,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div><!-- end title -->
                             
                             <form class="big-contact-form" role="search">
-                                <h3>Delegasi 1</h3>
-                                <input type="text" class="form-control" placeholder="Nama lengkap">
-                                <label class="radio-inline"><input type="radio" name="optradio">Laki-laki</label>
-                                <label class="radio-inline"><input type="radio" name="optradio">Perempuan</label>
-                                <input type="number" class="form-control" placeholder="NIK" style="-moz-appearance:textfield;">
-                                <select id="ptk" class="form-control">
-                                    <option disabled selected>Asal PTK</option>
-                                    <option>AAL</option>
-                                    <option>AKMIL</option>
-                                    <option>AAU</option>
-                                    <option>AKPOL</option>
-                                    <option>ATKP</option>
-                                    <option>IPDN</option>
-                                    <option>POLTEKIP</option>
-                                    <option>POLTEKIM</option>
-                                    <option>POLBANGTAN</option>
-                                    <option>POLTEK AKA</option>
-                                    <option>POLTEK ATK</option>
-                                    <option>POLTEKPEL</option>
-                                    <option>STIP</option>
-                                    <option>PIP</option>
-                                    <option>PPI</option>
-                                    <option>STTD</option>
-                                    <option>PKTJ</option>
-                                    <option>POLTEKBANG</option>
-                                    <option>POLTRANS SDP</option>
-                                    <option>POLTEK KP</option>
-                                    <option>STP</option>
-                                    <option>PEM Akamigas</option>
-                                    <option>AKMET</option>
-                                    <option>POLTEKSOS</option>
-                                    <option>POLTEK APP</option>
-                                    <option>STPN</option>
-                                    <option>POLTEK STMI</option>
-                                    <option>POLTEK STAT STIS</option>
-                                    <option>POLTEK STTT</option>
-                                    <option>STSN</option>
-                                    <option>PKN STAN</option>
-                                    <option>STTN BATAN</option>
-                                    <option>STMKG</option>
-                                    <option>POLTEKKES</option>
-                                </select>
-                                <input type="text" class="form-control" placeholder="NIM/NPM/NRP/NIT">
-                                <input type="text" class="form-control" placeholder="Jabatan di FMKI">
-                                <input type="text" class="form-control" placeholder="Nomor telepon">
-                                <select id="agama" class="form-control">
-                                    <option disabled selected>Agama</option>
-                                    <option>Islam</option>
-                                    <option>Katolik</option>
-                                    <option>Kristen</option>
-                                    <option>Hindu</option>
-                                    <option>Budha</option>
-                                </select>
-                                Upload foto dan dokumen (dalam bentuk *.zip atau *.rar)
-                                <input type="file" name="dokumen">
-                                <br><br>
-                                <h3>Delegasi 2</h3>
-                                <input type="text" class="form-control" placeholder="Nama lengkap">
-                                <label class="radio-inline"><input type="radio" name="optradio">Laki-laki</label>
-                                <label class="radio-inline"><input type="radio" name="optradio">Perempuan</label>
-                                <input type="number" class="form-control" placeholder="NIK" style="-moz-appearance:textfield;">
-                                <select id="ptk" class="form-control">
-                                    <option disabled selected>Asal PTK</option>
-                                    <option>AAL</option>
-                                    <option>AKMIL</option>
-                                    <option>AAU</option>
-                                    <option>AKPOL</option>
-                                    <option>ATKP</option>
-                                    <option>IPDN</option>
-                                    <option>POLTEKIP</option>
-                                    <option>POLTEKIM</option>
-                                    <option>POLBANGTAN</option>
-                                    <option>POLTEK AKA</option>
-                                    <option>POLTEK ATK</option>
-                                    <option>POLTEKPEL</option>
-                                    <option>STIP</option>
-                                    <option>PIP</option>
-                                    <option>PPI</option>
-                                    <option>STTD</option>
-                                    <option>PKTJ</option>
-                                    <option>POLTEKBANG</option>
-                                    <option>POLTRANS SDP</option>
-                                    <option>POLTEK KP</option>
-                                    <option>STP</option>
-                                    <option>PEM Akamigas</option>
-                                    <option>AKMET</option>
-                                    <option>POLTEKSOS</option>
-                                    <option>POLTEK APP</option>
-                                    <option>STPN</option>
-                                    <option>POLTEK STMI</option>
-                                    <option>POLTEK STAT STIS</option>
-                                    <option>POLTEK STTT</option>
-                                    <option>STSN</option>
-                                    <option>PKN STAN</option>
-                                    <option>STTN BATAN</option>
-                                    <option>STMKG</option>
-                                    <option>POLTEKKES</option>
-                                </select>
-                                <input type="text" class="form-control" placeholder="NIM/NPM/NRP/NIT">
-                                <input type="text" class="form-control" placeholder="Jabatan di FMKI">
-                                <input type="text" class="form-control" placeholder="Nomor telepon">
-                                <select id="agama" class="form-control">
-                                    <option disabled selected>Agama</option>
-                                    <option>Islam</option>
-                                    <option>Katolik</option>
-                                    <option>Kristen</option>
-                                    <option>Hindu</option>
-                                    <option>Budha</option>
-                                </select>
-                                Upload foto dan dokumen (dalam bentuk *.zip atau *.rar)
-                                <input type="file" name="dokumen">
-                                <br><br>
-                                <h3>Delegasi 3</h3>
                                 <input type="text" class="form-control" placeholder="Nama lengkap">
                                 <label class="radio-inline"><input type="radio" name="optradio">Laki-laki</label>
                                 <label class="radio-inline"><input type="radio" name="optradio">Perempuan</label>

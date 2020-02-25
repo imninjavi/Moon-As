@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <!-- END # MODAL LOGIN -->
 
-        <header class="header header-normal">
+        <header class="header" style="background-color: #222222">
 
         <div class="container">
                 <nav class="navbar navbar-default yamm">
@@ -120,7 +120,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <!-- <h4>Delegasi</h4> -->
                                 <div class="btn-wrapper">
                                     <div class="text-center">
-                                        <a href="<?php echo base_url() ?>" class="btn btn-primary">Delegasi</a> 
+                                        <a href="<?php echo base_url('registrasi/delegasi') ?>" class="btn btn-primary">Delegasi</a> 
                                     </div>
                                 </div>
                             </div><!-- end teamdesc -->
@@ -141,7 +141,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <!-- <h4>Pengurus</h4> -->
                                 <div class="btn-wrapper">
                                     <div class="text-center">
-                                        <a href="<?php echo base_url() ?>" class="btn btn-primary">Pengurus</a> 
+                                        <a href="<?php echo base_url('registrasi/pengurus') ?>" class="btn btn-primary">Pengurus</a> 
                                     </div>
                                 </div>
                             </div><!-- end teamdesc -->
