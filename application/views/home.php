@@ -104,7 +104,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="home-message">
                     <p>MUSYAWARAH NASIONAL FMKI 2020</p>
                     
-                    <div class="countdown countdown-container container ">
+                    <div class="countdown countdown-container container hidden-xs">
                         <div class="clock row">
                             <div class="clock-item clock-days countdown-time-value col-sm-2 col-md-2">
                                 <div class="wrap">
@@ -160,7 +160,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div><!-- /.clock -->
                     </div><!-- /.countdown-wrapper -->
 
-                    <small>Pendaftaran akan dibuka 2 minggu sebelum pelaksanaan acara.</small>
+                    <small>28 - 29 Maret 2020, Bumi Sanapati Politeknik Siber dan Sandi Negara</small>
                     <div class="btn-wrapper">
                         <div class="text-center">
                             <a href="<?php echo base_url('download') ?>" class="btn btn-primary wow slideInLeft">Download  <b class="fa fa-download"></b></a> &nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('registrasi') ?>" class="btn btn-default wow slideInRight">Registrasi</a>
@@ -169,7 +169,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
             <div class="slider-bottom">
-                <span>Explore <i class="fa fa-angle-down"></i></span>
+                <span>More<i class="fa fa-angle-down"></i></span>
             </div>
         </section>
 
@@ -183,47 +183,68 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div><!-- end col -->
                     <div class="col-md-8">
                         <div class="custom-module p40l">
-                            <h2>Musyawarah Nasional FMKI 2020 akan diselenggarakan di Kampus Bumi Sanapati Politeknik Siber dan Sandi Negara</h2>
+                            <h2 class="wow slideInDown" style="margin-top: 5px">Musyawarah Nasional (MUNAS) FMKI 2020</h2>
 
-                            <p>Musyawarah nasional yang diselenggarakan oleh Forum Mahasiswa Kedinasan Indonesia berlokasi di Bogor tepatnya di Kampus Bumi Sanapati, Politeknik Siber dan Sandi Negara. Acara ini akan diikuti oleh beberapa Perguruan Tinggi Kedinasan yaitu: </p>
+                            <p class="wow slideInRight" align="justify">Menjadi program tahunan FMKI, kali ini MUNAS hadir dengan nuansa yang berbeda. Terinspirasi dari warna-warni keberagaman dan keunikan mahasiswa kedinasan yang tersebar dari Sabang hingga Merauke, Pelangi Khatulistiwa lahir dan tercipta, membawa misi sinergitas nusantara dengan menjunjung tinggi nasionalisme dan solidaritas. Pelangi Khatulistiwa merupakan tema kegiatan nasional pertama Politeknik Siber dan Sandi Negara (Poltek SSN), tuan rumah MUNAS 2020. Transformasi Poltek SSN ini akan membawa semangat, inovasi, dan kreativitas baru yang akan dituangkan pada rangkaian kegiatan MUNAS 2020.</p>
+                            
+                            <p class="wow slideInRight">Pelangi Khatulistiwa akan semakin bersinar dengan warna-warni PTK, yakni: </p>
 
-                            <hr class="invis">
+                            <hr style="margin: 15px 0; border: 0">
 
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 first">
+                            <div class="row wow slideInUp">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 first">
                                     <ul class="check">
-                                        <li>STSN</li>
-                                        <li>STPI</li>
-                                        <li>PKN STAN</li>
-                                        <li>API Madiun</li>
-                                        <li>STTD</li>
+                                        <li>AAL</li>
+                                        <li>AKMIL</li>
+                                        <li>AAU</li>
+                                        <li>AKPOL</li>
+                                        <li>ATKP</li>
+                                        <li>IPDN</li>
+                                        <li>POLTEKIP</li>
+                                        <li>POLTEKIM</li>
+                                        <li>POLBANGTAN</li>
                                     </ul><!-- end check -->
                                 </div><!-- end col-lg-4 -->
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                                     <ul class="check">
-                                        <li>Polbangtan</li>
-                                        <li>STMKG</li>
-                                        <li>STIS</li>
-                                        <li>AKA Migas</li>
-                                        <li>PPI Curug</li>
+                                        <li>POLTEK AKA</li>
+                                        <li>POLTEK ATK</li>
+                                        <li>POLTEKPEL</li>
+                                        <li>STIP</li>
+                                        <li>PIP</li>
+                                        <li>PPI</li>
+                                        <li>STTD</li>
+                                        <li>PKTJ</li>
+                                        <li>POLTEKBANG</li>
                                     </ul><!-- end check -->    
                                 </div><!-- end col-lg-4 -->
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 last">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 last">
                                     <ul class="check">
-                                        <li>Poltekim</li>
-                                        <li>Poltekip</li>
-                                        <li>Bebas1</li>
-                                        <li>Bebas 2</li>
-                                        <li>haha hihi</li>
+                                        <li>POLTRANS SDP</li>
+                                        <li>POLTEK KP</li>
+                                        <li>STP</li>
+                                        <li>PEM Akamigas</li>
+                                        <li>AKMET</li>
+                                        <li>POLTEKSOS</li>
+                                        <li>POLTEK APP</li>
+                                        <li>STPN</li>
+                                        <li>POLTEK STMI</li>
                                     </ul><!-- end check -->
+                                </div><!-- end col-lg-4 -->
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                    <ul class="check">
+                                        <li>POLTEK STAT STIS</li>
+                                        <li>POLTEK STTT</li>
+                                        <li>STSN</li>
+                                        <li>PKN STAN</li>
+                                        <li>STTN BATAN</li>
+                                        <li>STMKG</li>
+                                        <li>POLTEKKES</li>
+                                    </ul><!-- end check -->    
                                 </div><!-- end col-lg-4 --> 
                             </div><!-- end row -->   
 
                             <hr class="invis">
-
-                            <div class="btn-wrapper">
-                                <a href="#" class="btn btn-primary">Learn More About us</a>
-                            </div>
 
                         </div><!-- end module -->
                     </div><!-- end col -->
@@ -267,8 +288,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     $('document').ready(function() {
         'use strict';
 
-        var start = Date.parse('Wed Feb 20 00:00:00 +0700 2020')/1000;
-        var end = Date.parse('Wed Mar 27 00:00:00 +0700 2020')/1000;
+        var start = Date.parse('Wed Feb 25 00:00:00 +0700 2020')/1000;
+        var end = Date.parse('Wed Mar 28 00:00:00 +0700 2020')/1000;
         var now = new Date().getTime() / 1000;
         
     	$('.countdown').final_countdown({
