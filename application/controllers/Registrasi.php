@@ -50,4 +50,36 @@ class Registrasi extends CI_Controller {
             
         }
     }
+
+    public function regis_peserta()
+    {
+
+        $this->form_validation->set_rules('nama', 'NAMA','required', 'Harus mengisi Niii');
+        $this->form_validation->set_rules('jenis_kelamin', 'JENIS KELAMIN','required');
+        $this->form_validation->set_rules('nik','NIK','required');
+        $this->form_validation->set_rules('ptk','PTK','required');
+        $this->form_validation->set_rules('nim', 'NIM','required');
+        // $this->form_validation->set_rules('jabatan', 'JABATAN','required');
+        $this->form_validation->set_rules('telp', 'NOMOR TELEPON','required');
+        $this->form_validation->set_rules('agama', 'AGAMA','required');
+        if($this->form_validation->run() == FALSE) {
+            $this->load->view('reg_peserta');
+        }else{
+
+            $data['nama'] = $this->input->post('nama');
+            $data['jenis_kelamin'] = $this->input->post('jenis_kelamin');
+            $data['nik'] = $this->input->post('nik');
+            $data['ptk'] = $this->input->post('ptk');
+            $data['nim'] = $this->input->post('nim');
+            $data['jabatan'] = $this->input->post('jabatan');
+            $data['telp'] = $this->input->post('telp');
+            $data['agama'] = $this->input->post('agama');
+
+
+            $this->m_daftar->daftar_peserta($data);
+            
+            $this->load->view('success', $data);
+            
+        }
+    }
 }

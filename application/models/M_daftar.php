@@ -7,4 +7,9 @@
        {
             $this->db->insert('pengurus',$data);
        }
+
+       function daftar_peserta($data)
+       {
+            $this->db->insert('delegasi',$data);
+       }
   }
