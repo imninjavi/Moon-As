@@ -46,7 +46,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <!-- LOADER -->
     <div id="preloader">
-        <img class="preloader" src="<?php echo base_url('images/loader.gif')?>" alt="">
+        <img class="preloader" src="images/loader.gif" alt="">
     </div><!-- end loader -->
     <!-- END LOADER -->
 
@@ -73,7 +73,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <header class="header header-normal">
 
-        <div class="container">
+            <div class="container">
                 <nav class="navbar navbar-default yamm">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -98,57 +98,53 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div><!-- end container -->
         </header>
 
-        <section class="parallax event-section" style="padding: 10rem 0">
+        <section class="section db p120">
             <div class="container">
-                <div class="section-title text-center">
-                    <h3>Registrasi</h3>
-                    <p>Silakan pilih pendaftaran Anda</p>
-                </div><!-- end title -->
-
-                <div class="row text-center" style="padding-left: 25%">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="teammembers">
-                            <div class="entry">
-                                <img src="<?php echo base_url('assets/upload/delegasi.png')?>" alt="" class="img-responsive">
-                                <div class="magnifier">
-                                    <div class="visible-buttons1 teambuttons">
-                                        <p>Daftarkan diri Anda sebagai perwakilan dari masing-masing PTK</p>
-                                    </div>
-                                </div>
-                            </div><!-- end box -->
-                            <div class="teamdesc">
-                                <!-- <h4>Delegasi</h4> -->
-                                <div class="btn-wrapper">
-                                    <div class="text-center">
-                                        <a href="<?php echo base_url() ?>" class="btn btn-primary">Delegasi</a> 
-                                    </div>
-                                </div>
-                            </div><!-- end teamdesc -->
-                        </div><!-- end teammembers -->
-                    </div><!-- end col -->
-
-                    <div class="col-md-4 col-sm-6">
-                        <div class="teammembers">
-                            <div class="entry">
-                                <img src="<?php echo base_url('assets/upload/pengurus.png')?>" alt="" class="img-responsive">
-                                <div class="magnifier">
-                                    <div class="visible-buttons1 teambuttons">
-                                        <p>Daftarkan diri Anda sebagai perwakilan pengurus FMKI dari masing-masing PTK</p>
-                                    </div>
-                                </div>
-                            </div><!-- end box -->
-                            <div class="teamdesc">
-                                <!-- <h4>Pengurus</h4> -->
-                                <div class="btn-wrapper">
-                                    <div class="text-center">
-                                        <a href="<?php echo base_url() ?>" class="btn btn-primary">Pengurus</a> 
-                                    </div>
-                                </div>
-                            </div><!-- end teamdesc -->
-                        </div><!-- end teammembers -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="tagline-message page-title text-center">
+                            <h3>Halaman Registrasi Peserta</h3>
+                        </div>
                     </div><!-- end col -->
                 </div><!-- end row -->
             </div><!-- end container -->
+        </section><!-- end section -->
+
+        <section class="section gb nopadtop">
+            <div class="container">
+                <div class="boxed boxedp4">
+
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <div class="section-title text-center">
+                                <h3>Formulir Registrasi</h3>
+                                <p>Harap mengisi formulir di berikut dengan sebenar-benarnya.</p>
+                            </div><!-- end title -->
+                            
+                            <form class="big-contact-form" role="search">
+                                <input type="text" class="form-control" placeholder="Nama lengkap">
+                                <label class="radio-inline"><input type="radio" name="optradio">Laki-laki</label>
+                                <label class="radio-inline"><input type="radio" name="optradio">Perempuan</label>
+                                <select id="ptk" class="form-control">
+                                    <option disabled selected>Asal PTK</option>
+                                    <option>PKN Stan</option>
+                                    <option>STIP</option>
+                                </select>
+                                <input type="text" class="form-control" placeholder="Nomor telepon">
+                                <select id="agama" class="form-control">
+                                    <option disabled selected>Agama</option>
+                                    <option>Islam</option>
+                                    <option>Katolik</option>
+                                    <option>Kristen</option>
+                                    <option>Hindu</option>
+                                    <option>Budha</option>
+                                </select>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div>
         </section>
 
         <div class="copyrights">
@@ -169,13 +165,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div><!-- end wrapper -->
 
     <!-- jQuery Files -->
-    <script src="<?php echo base_url('assets/js/parallax.js')?>"></script>
     <script src="<?php echo base_url('assets/js/jquery.min.js')?>"></script>
     <script src="<?php echo base_url('assets/js/bootstrap.min.js')?>"></script>
     <script src="<?php echo base_url('assets/js/animate.js')?>"></script>
     <script src="<?php echo base_url('assets/js/custom.js')?>"></script>
     <!-- VIDEO BG PLUGINS -->
-    <script src="<?php echo base_url('assets/js/videobg.js')?>"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAkADq7R0xf6ami9YirAM1N-yl7hdnYBhM "></script>
+    <!-- MAP & CONTACT -->
+    <script src="js/map.js"></script>
 
 </body>
 </html>
