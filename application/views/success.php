@@ -117,6 +117,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="clearfix">
                     <div class="text-center">
                         <div class="cop-logo">
+                            <h2 style="color: white">Contact Us</h2>
+                            <div class="col-md-6">
+                                <ul>
+                                    Phone:
+                                    <li>+62 8999100189 (Noni Fauziah)</li>
+                                    <li>+62 85842010070 (Faizarrohman)</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6" style="padding-top: 10px">
+                                <ul>
+                                    <li>Email: hima.semastsn@gmail.com</li>
+                                    <li>Instagram : @hima_stsn</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end container -->
+        </div><!-- end copy -->
+
+        <div class="copyrights">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="text-center">
+                        <div class="cop-logo">
                             <ul class="list-inline">
                                 <li>Forum Mahasiswa Kedinasan Indonesia</li>
                                 <a href="#"><img src="<?php echo base_url('assets/images/logo2.png')?>" alt=""></a>
