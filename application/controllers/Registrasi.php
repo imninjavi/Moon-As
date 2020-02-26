@@ -37,7 +37,7 @@ class Registrasi extends CI_Controller {
         } else {
 
             $config['upload_path']          = './doc_pengurus/';
-            $config['allowed_types']        = 'gif|jpg|png';
+            $config['allowed_types']        = 'zip|rar';
             $config['max_size']             = 20480;
 
             $this->load->library('upload', $config);
@@ -86,7 +86,7 @@ class Registrasi extends CI_Controller {
         } else {
 
             $config['upload_path']          = './doc_delegasi/';
-            $config['allowed_types']        = 'gif|jpg|png';
+            $config['allowed_types']        = 'zip|rar';
             $config['max_size']             = 20480;
 
             $this->load->library('upload', $config);
