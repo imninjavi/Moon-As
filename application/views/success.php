@@ -91,7 +91,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="<?php echo base_url() ?>">Beranda</a></li>
                             <li><a href="<?php echo base_url('registrasi') ?>">Registrasi</a></li>
-                            <li><a href="page-contact.html">Contact</a></li>
+                            <!-- <li><a href="page-contact.html">Contact</a></li> -->
                         </ul>
                     </div>
                 </nav><!-- end navbar -->
