@@ -248,6 +248,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         </div><!-- end module -->
                     </div><!-- end col -->
+                    <div class="col-md-12 hidden-sm hidden-xs">
+                        <div class="custom-module">
+                            <img src="<?php echo base_url('assets/upload/mekanisme.jpeg')?>" alt="" class="img-responsive wow slideInUp">
+                        </div><!-- end module -->
+                    </div>
                 </div><!-- end row -->
             </div><!-- end container -->
         </section>

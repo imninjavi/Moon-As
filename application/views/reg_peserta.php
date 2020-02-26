@@ -125,8 +125,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             
                             <form action="<?php echo base_url('registrasi/regis_peserta') ?>" class="big-contact-form" method="post">
                                 <input type="text" name="nama" class="form-control" placeholder="Nama lengkap">
-                                <label class="radio-inline"><input type="radio" name="jenis_kelamin">Laki-laki</label>
-                                <label class="radio-inline"><input type="radio" name="jenis_kelamin">Perempuan</label>
+                                <label class="radio-inline"><input type="radio" name="jenis_kelamin" value="Laki-laki">Laki-laki</label>
+                                <label class="radio-inline"><input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan</label>
                                 <input type="number" name="nik" class="form-control" placeholder="NIK">
                                 <select name="ptk" class="form-control">
                                     <option disabled selected>Asal PTK</option>
