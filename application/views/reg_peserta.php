@@ -98,7 +98,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div><!-- end container -->
         </header>
 
-        <section class="section db p120" style="background-color: #555555">
+        <section class="section db p120" style="background-image: url('<?php echo base_url("assets/images/bg2.jpg") ?>'); background-repeat: no-repeat; background-position: center top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
