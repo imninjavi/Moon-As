@@ -122,8 +122,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div><!-- end title -->
 
                             <?php echo validation_errors(); ?>
-                            
-                            <form action="<?php echo base_url('registrasi/regis_peserta') ?>" class="big-contact-form" method="post">
+                            <?php echo $error; ?>
+                            <?php echo form_open_multipart('registrasi/regis_peserta', 'class="big-contact-form"') ?>
                                 <input type="text" name="nama" class="form-control" placeholder="Nama lengkap">
                                 <label class="radio-inline"><input type="radio" name="jenis_kelamin" value="Laki-laki">Laki-laki</label>
                                 <label class="radio-inline"><input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan</label>

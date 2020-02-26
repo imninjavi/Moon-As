@@ -10,7 +10,7 @@ class Registrasi extends CI_Controller {
     
     public function delegasi()
 	{
-		$this->load->view('reg_peserta');
+		$this->load->view('reg_peserta', array('error' => ' ' ));
     }
     
     public function pengurus()
@@ -36,7 +36,7 @@ class Registrasi extends CI_Controller {
             $this->load->view('reg_pengurus');
         } else {
 
-            $config['upload_path']          = './doc_upload/';
+            $config['upload_path']          = './doc_pengurus/';
             $config['allowed_types']        = 'gif|jpg|png';
             $config['max_size']             = 20480;
 
@@ -85,7 +85,7 @@ class Registrasi extends CI_Controller {
             $this->load->view('reg_peserta');
         } else {
 
-            $config['upload_path']          = './doc_upload/';
+            $config['upload_path']          = './doc_delegasi/';
             $config['allowed_types']        = 'gif|jpg|png';
             $config['max_size']             = 20480;
 
@@ -95,7 +95,7 @@ class Registrasi extends CI_Controller {
             {
                 $error = array('error' => $this->upload->display_errors());
 
-                $this->load->view('reg_pengurus', $error);
+                $this->load->view('reg_peserta', $error);
             }
             else
             {
