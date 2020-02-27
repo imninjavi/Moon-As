@@ -105,7 +105,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="<?php echo base_url('assets/upload/check-success.png')?>">
                 <h3><?php echo $nama ?>,</h3>
                 <p style="font-size:20px;color:#5C5C5C;">Terima kasih telah melakukan pendaftaran. <br>Anda dapat kembali ke Beranda atau dapat kembali ke halaman registrasi melalui tombol di bawah ini.</p>
-                <a href="<?php echo base_url() ?>" class="btn btn-primary wow slideInLeft">Beranda  <b class="fa fa-download"></b></a> &nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('registrasi') ?>" class="btn btn-default wow slideInRight">Registrasi</a>
+                <a href="<?php echo base_url() ?>" class="btn btn-primary wow slideInLeft">Beranda</b></a> &nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('registrasi') ?>" class="btn btn-default wow slideInRight">Registrasi</a>
+                <br><br> <a href="<?php echo base_url('download/pasca_pendaftaran') ?>" class="btn btn-warning wow slideInUp">Guidebook & AD ART <b class="fa fa-download"></b></a>
             <br><br>
                 </div>
                 

@@ -163,7 +163,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <small>28 - 29 Maret 2020, Bumi Sanapati Politeknik Siber dan Sandi Negara</small>
                     <div class="btn-wrapper">
                         <div class="text-center">
-                            <a href="<?php echo base_url('download') ?>" class="btn btn-primary wow slideInLeft">Download  <b class="fa fa-download"></b></a> &nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('registrasi') ?>" class="btn btn-default wow slideInRight">Registrasi</a>
+                            <a href="<?php echo base_url('download/pra_pendaftaran') ?>" class="btn btn-primary wow slideInLeft">Download  <b class="fa fa-download"></b></a> &nbsp;&nbsp;&nbsp;<a href="<?php echo base_url('registrasi') ?>" class="btn btn-default wow slideInRight">Registrasi</a>
                         </div>
                     </div><!-- end row -->
                 </div>
@@ -176,9 +176,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <section class="section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 hidden-sm hidden-xs">
+                    <div class="col-md-4 hidden-sm hidden-xs" style="margin-top: 40px">
                         <div class="custom-module">
-                            <img src="<?php echo base_url('assets/upload/device_01.png')?>" alt="" class="img-responsive wow slideInLeft">
+                            <img src="<?php echo base_url('assets/upload/poster_munas.jpeg')?>" alt="" class="img-responsive wow slideInLeft">
                         </div><!-- end module -->
                     </div><!-- end col -->
                     <div class="col-md-8">
